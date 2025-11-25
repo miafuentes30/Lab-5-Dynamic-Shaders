@@ -4,6 +4,7 @@ Representación de una estrella sobre una esfera usando rasterización en CPU (c
 
 ## Demostración
 Ingresa al Link:
+https://www.canva.com/design/DAG5qPCilKg/TYnNPROSIUHAW3JTAOktWA/edit?utm_content=DAG5qPCilKg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
 ## Controles (runtime)
@@ -36,7 +37,6 @@ Radial scale = `1 + flare_ridge*0.08*flare_intensity + wave`. Wave seno pequeño
 
 ## Color
 Gradiente estratificado por intensidad → mezcla hacia blanco cálido según `temp_norm`. Rim glow con función `rim()` y color cálido.
-
 
 ## Compilación
 ```bash
